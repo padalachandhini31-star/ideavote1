@@ -1,4 +1,4 @@
-﻿# Existing GitHub ignore rules
+﻿# Logs
 logs/
 *.log
 npm-debug.log*
@@ -6,28 +6,26 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+
+# Dependencies and builds
 node_modules/
 dist/
-
-# Frontend
 frontend/node_modules/
 frontend/dist/
-frontend/.env
-frontend/.env.*
-
-# Backend
 backend/target/
 
 # Environment secrets
 .env
 .env.*
+frontend/.env
+frontend/.env.*
 
 # ZIP archives
 *.zip
 
-# Duplicate project copy
-ideavote_frontend_backend/
-
 # IDE files
 .vscode/
 .idea/
+
+# Duplicate project copy
+ideavote_frontend_backend/
