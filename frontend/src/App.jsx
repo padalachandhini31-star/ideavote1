@@ -117,7 +117,7 @@ export default function App() {
       } catch (err) {
         console.error("Backend connection error:", err);
         setError(
-          "Could not connect to the backend. Check that Spring Boot is running on port 8081."
+          "Could not connect to the deployed backend. Please try again."
         );
       } finally {
         setLoading(false);
