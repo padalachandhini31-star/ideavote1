@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import "./index.css";
 
-const API_URL = "http://localhost:8081/api/ideas";
+const API_URL = "https://ideavote1.onrender.com/api/ideas";
 
 const startingIdeas = [
   {
